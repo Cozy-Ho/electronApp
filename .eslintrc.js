@@ -5,6 +5,11 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     // Since React 17 and typescript 4.1 you can safely disable the rule
     'react/react-in-jsx-scope': 'off',
+    'import/order': 'off',
+    "@typescript-eslint/no-shadow": ["warn"]
+    'no-shadow': 'off',
+    'no-console': 'off',
+    'react/no-array-index-key': 'off'
   },
   parserOptions: {
     ecmaVersion: 2020,
